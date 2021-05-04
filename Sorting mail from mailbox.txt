@@ -1,0 +1,29 @@
+
+Open the mailbox sort and read the mail
+
+Open the mailbox
+    if there is mail 
+        then grab the mail out and close the mailbox
+    else if there is no mail
+        then close the mailbox and walk back inside and continue the day
+
+Walk back inside and set the mail on the counter
+    if the mail is addressed to Javed
+        then set that mail aside
+    else if the mail is addressed to Kelsy
+        then open and read who the mail is from
+    else if the mail isn't addressed to anyone 
+        if its newspapers and grocery flyer set aside
+        else if its coupons set set aside
+        else if not addressed to me it was probably sent by mistake
+
+Read newspapers and grocery flyers
+    while grocery flyers exist
+        open and read through the savings
+    else if no more grocery flyers
+        then skim through the newspapers
+    else if no newspapers or grocery flyers exist
+        if its addressed to someone other than me grab the mail and put it back in the mailbox
+        else if its not addressed to anyone
+            then locate what mail is leftover and throw it in the trash
+    
